@@ -48,11 +48,6 @@ stats <- function(data){
   
 stats(tidy_data)
 
-#Analyzing the sentiments using the syuzhet package
-
-text <- tibble(review = str_to_lower(tidy_data$review))
-
-
 sentiments <-function(data) {
   #Analyzing the sentiments using the syuzhet package
   
